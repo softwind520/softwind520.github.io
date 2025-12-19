@@ -4,6 +4,35 @@
   
   
   <entry>
+    <title>git常用命令</title>
+    <link href="/2025/12/19/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <url>/2025/12/19/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    
+    <content type="html"><![CDATA[<h3 id="一、常用命令"><a href="#一、常用命令" class="headerlink" title="一、常用命令"></a>一、常用命令</h3><table><thead><tr><th>操作</th><th>命令</th></tr></thead><tbody><tr><td>初始化本地版本库</td><td>git init</td></tr><tr><td>克隆远程仓库版本</td><td>git clone <url></td></tr><tr><td>查看远程仓库链接</td><td>git remote -v</td></tr><tr><td>查看本地分支</td><td>git branch</td></tr><tr><td>查看远程分支</td><td>git branch -r</td></tr><tr><td>查看所有分支（本地和远程）</td><td>git branch -a</td></tr><tr><td>切换本地分支</td><td>git checkout 分支名</td></tr><tr><td>切换本地分支并让他跟踪对应的远程分支（本地没有分支则自动创建）</td><td>git checkout -b 本地分支名 origin&#x2F;远程分支名</td></tr><tr><td>添加远程仓库</td><td>git remote add origin &lt;你的仓库URL&gt;</td></tr><tr><td>重命名本地分支</td><td>git branch -M &lt;本地分支名&gt;</td></tr><tr><td>将修改添加到暂存区</td><td>git add .</td></tr><tr><td>将暂存区内容提交到本地仓库</td><td>git commit -m “修改内容”</td></tr><tr><td>拉取远程最新代码解决可能的冲突</td><td>git pull 远程分支名 本地分支名</td></tr><tr><td>将本地提交推送到远程仓库</td><td>git push 远程分支名 本地分支名</td></tr></tbody></table><h3 id="二、Git基本框架"><a href="#二、Git基本框架" class="headerlink" title="二、Git基本框架"></a>二、Git基本框架</h3><p><img src="/./../img/git/git.png"></p><h3 id="三、个人工作流程"><a href="#三、个人工作流程" class="headerlink" title="三、个人工作流程"></a>三、个人工作流程</h3><table><thead><tr><th>个人工作流程</th><th></th></tr></thead><tbody><tr><td>初始化</td><td>git init</td></tr><tr><td>项目下载到本地</td><td>git clone <url></td></tr><tr><td>基于远程分支创建本地分支（并建立自动跟踪）</td><td>git checkout -b 本地分支名 origin&#x2F;远程分支名</td></tr><tr><td>将修改添加到暂存区</td><td>git add .</td></tr><tr><td>将暂存区内容提交到本地仓库</td><td>git commit -m “message”</td></tr><tr><td>获取远程最新代码并解决可能的冲突</td><td>git pull origin main</td></tr><tr><td>将本地提交推送到远程仓库</td><td>git push origin main</td></tr></tbody></table>]]></content>
+    
+    
+    <categories>
+      
+      <category>Git</category>
+      
+      <category>常用命令</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Git</tag>
+      
+      <tag>常用命令</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2025/12/19/hello-world/"/>
     <url>/2025/12/19/hello-world/</url>
